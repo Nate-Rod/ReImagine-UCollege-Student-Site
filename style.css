@@ -1,0 +1,18 @@
+body{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
+}
+
+div{
+  display: flex;
+}
+
+*.white{
+  color: #fafafa
+}
+
+*.black{
+  color: #0c0c0c
+}
