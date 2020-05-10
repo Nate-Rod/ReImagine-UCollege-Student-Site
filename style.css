@@ -16,3 +16,11 @@ div{
 *.black{
   color: #0c0c0c
 }
+
+.container{
+  /* display: inline-block; */
+  margin: auto;
+  padding: 30px;
+  /* background-color: teal; */
+  /* float: center; */
+}
