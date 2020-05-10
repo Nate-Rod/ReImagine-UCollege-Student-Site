@@ -8,23 +8,18 @@ function appendHtml(el, str) {
   }
 }
 
-//Reads text data from an external (local) file
-//and returns the contents as a string.
-function readTextFile(file) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function () {
-        if(rawFile.readyState === 4) {
-            if(rawFile.status === 200 || rawFile.status == 0) {
-                var allText = rawFile.responseText;
-                alert("ver. 5/10 12:25am")
-                alert(allText);
-            }
-        }
+function loadSVG(file){
+  xhr = new XMLHttpRequest();
+  xhr.open("GET",file,false);
+  // Following line is just to be on the safe side;
+  // not needed if your server delivers SVG with correct MIME type
+  xhr.overrideMimeType("image/svg+xml");
+  xhr.onload = function(e) {
+    // You might also want to check for xhr.readyState/xhr.status here
+    document.getElementById("process")
+      .appendChild(xhr.responseXML.documentElement);
     }
-    rawFile.send();
+  xhr.send("");
 }
 
-//example of above two functions in action:
-sq_nate = readTextFile("squiggle_nate.txt");
-document.getElementById("process").insertAdjacentHTML('beforeend', sq_nate);
+loadSVG("images/squiggle_nate.svg");
