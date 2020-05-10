@@ -12,4 +12,4 @@ function loadSVG(file){
   xhr.send("");
 }
 
-loadSVG("images/squiggle_nate.svg");
+loadSVG("images/blue.svg");
