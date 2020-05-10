@@ -1,7 +1,7 @@
 //Allows for addition of SVGs to the DOM.
 function loadSVG(file){
   xhr = new XMLHttpRequest();
-  xhr.open("GET",file,false);
+  xhr.open("GET",file,true);
   // Following line is just to be on the safe side;
   xhr.overrideMimeType("image/svg+xml");
   xhr.onload = function(e) {

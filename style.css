@@ -17,9 +17,6 @@ div{
   color: #0c0c0c
 }
 
-svg:hover{
-  cursor: pointer;
-}
 #squiggle_nate:hover{
   cursor: pointer;
 }
@@ -36,4 +33,8 @@ svg:hover{
   max-height: 500px;
   min-height: 300px;
   width: 100%;
+}
+
+svg|a:link, svg|a:visited {
+  cursor: pointer;
 }
