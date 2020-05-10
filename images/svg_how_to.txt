@@ -1,0 +1,7 @@
+Using links on SVGS:
+
+Place <a href=""> </a> tags around the section(s) of
+the SVG's path (or group) tags that you would like to link.
+
+CSS/JS can be used to detect when the mouse hovers over
+the given segment of the SVG to check your work.
