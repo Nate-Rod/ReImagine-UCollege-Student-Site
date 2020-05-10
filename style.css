@@ -17,6 +17,10 @@ div{
   color: #0c0c0c
 }
 
+#squiggle_nate:hover{
+  cursor: pointer;
+}
+
 .container{
   /* display: inline-block; */
   margin: auto;
