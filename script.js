@@ -26,4 +26,4 @@ function readTextFile(file) {
 
 //example of above two functions in action:
 sq_nate = readTextFile("squiggle_nate.txt");
-appendHtml(document.getElementById("process"), sq_nate);
+document.getElementById("process").insertAdjacentHTML('beforeend', sq_nate);
