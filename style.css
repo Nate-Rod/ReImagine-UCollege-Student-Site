@@ -1,6 +1,6 @@
 body{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /*justify-content: space-around;*/
   background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
 }
@@ -21,6 +21,12 @@ div{
   /* display: inline-block; */
   margin: auto;
   padding: 30px;
-  /* background-color: teal; */
+  /* background-color: wheat; */
   /* float: center; */
+}
+
+.backgroundpic{
+  max-height: 500px;
+  min-height: 300px;
+  width: 100%;
 }
