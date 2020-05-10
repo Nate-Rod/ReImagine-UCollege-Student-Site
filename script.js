@@ -1,5 +1,5 @@
 //Allows for addition of elements to the DOM using a raw string as an input.
-//Very useful for SVGs
+//Very useful for SVGs.
 function appendHtml(el, str) {
   var div = document.createElement('div');
   div.innerHTML = str;
