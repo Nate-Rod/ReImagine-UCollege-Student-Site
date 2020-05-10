@@ -17,10 +17,6 @@ div{
   color: #0c0c0c
 }
 
-#squiggle_nate:hover{
-  cursor: pointer;
-}
-
 .container{
   /* display: inline-block; */
   margin: auto;
@@ -33,6 +29,11 @@ div{
   max-height: 500px;
   min-height: 300px;
   width: 100%;
+}
+
+#svgs-main{
+  max-width: 80%;
+  max-height: 80%;
 }
 
 svg|a:link, svg|a:visited {
