@@ -17,6 +17,7 @@ function readTextFile(file) {
         if(rawFile.readyState === 4) {
             if(rawFile.status === 200 || rawFile.status == 0) {
                 var allText = rawFile.responseText;
+                alert("ver. 5/10 12:25am")
                 alert(allText);
             }
         }
@@ -26,4 +27,4 @@ function readTextFile(file) {
 
 //example of above two functions in action:
 sq_nate = readTextFile("squiggle_nate.txt");
-appendHtml(document.getElementById("process"), sq_nate);
+document.getElementById("process").insertAdjacentHTML('beforeend', sq_nate);
