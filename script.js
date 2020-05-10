@@ -1,13 +1,4 @@
-//Allows for addition of elements to the DOM using a raw string as an input.
-//Very useful for SVGs.
-function appendHtml(el, str) {
-  var div = document.createElement('div');
-  div.innerHTML = str;
-  while (div.children.length > 0) {
-    el.appendChild(div.children[0]);
-  }
-}
-
+//Allows for addition of SVGs to the DOM.
 function loadSVG(file){
   xhr = new XMLHttpRequest();
   xhr.open("GET",file,false);

@@ -17,6 +17,9 @@ div{
   color: #0c0c0c
 }
 
+svg:hover{
+  cursor: pointer;
+}
 #squiggle_nate:hover{
   cursor: pointer;
 }
