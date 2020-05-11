@@ -31,9 +31,42 @@ svg|a:link, svg|a:visited {
   cursor: pointer;
 }
 
+img.icon{
+  border: 2px solid transparent;
+  max-width: 80%;
+  height: auto;
+  max-height: 50%;
+  border-radius: 50%;
+
+}
+
+img.nate{
+  border-color: #ed1c24;
+}
+
+img.carrie{
+  border-color: #2e3192;
+}
+
+img.victoria{
+  border-color: #fcee21;
+}
+
+img.anya{
+  border-color: #ff00ff;
+}
+
+img.jane{
+  border-color: #009245;
+}
+
+img.icon:hover{
+  cursor: pointer;
+}
+
 .section1 {
   height: 100vh;
-  background-color: rgb(69, 111, 225) 
+  background-color: rgb(69, 111, 225)
 }
 
 .navbar{
