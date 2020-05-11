@@ -18,18 +18,8 @@ div{
 }
 
 .container{
-  /* display: inline-block; */
   margin: auto;
   padding: 30px;
-  /* background-color: wheat; */
-  /* float: center; */
-}
-
-.backgroundpic{
-  max-height: 500px;
-  min-height: 300px;
-  width: 100%;
-  transition: ease;
 }
 
 #svgs-main{
@@ -44,4 +34,8 @@ svg|a:link, svg|a:visited {
 .section1 {
   height: 100vh;
   background-color: rgb(69, 111, 225) 
+}
+
+.navbar{
+  position: fixed;
 }
