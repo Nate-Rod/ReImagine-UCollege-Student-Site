@@ -29,6 +29,7 @@ div{
   max-height: 500px;
   min-height: 300px;
   width: 100%;
+  transition: ease;
 }
 
 #svgs-main{
@@ -38,4 +39,9 @@ div{
 
 svg|a:link, svg|a:visited {
   cursor: pointer;
+}
+
+.section1 {
+  height: 100vh;
+  background-color: rgb(69, 111, 225) 
 }
