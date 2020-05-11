@@ -12,4 +12,4 @@ function loadSVG(id, file){
   xhr.send("");
 }
 
-loadSVG("svgs-main","images/blue.svg");
+loadSVG("svgs-main","images/squiggles_for_everyone.svg");
