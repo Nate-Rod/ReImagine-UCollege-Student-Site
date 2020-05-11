@@ -33,7 +33,7 @@ svg|a:link, svg|a:visited {
 
 img.icon{
   border: 2px solid transparent;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   max-height: 50%;
   border-radius: 50%;
