@@ -17,7 +17,8 @@ loadSVG("svgs-main","images/squiggles_for_everyone.svg");
 
 ScrollReveal().reveal('.container', { delay: 700, scale: 0.95});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
-ScrollReveal().reveal('.svgs-main', { delay: 0, scale: 1});
+// id not class
+ScrollReveal().reveal('.svgs-main', { delay: 0, scale: 1}); 
 ScrollReveal().reveal('.images/squiggles_for_everyone.svg', { delay: 0, scale: 1});
 
 
