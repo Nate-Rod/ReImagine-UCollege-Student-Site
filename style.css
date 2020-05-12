@@ -46,12 +46,11 @@ svg|a:link, svg|a:visited {
 }
 
 img.icon{
-  border: 2px solid transparent;
-  max-width: 80%;
+  border: 3.5px solid transparent;
+  max-width: 50%;
   height: auto;
   max-height: 50%;
   border-radius: 50%;
-
 }
 
 img.nate{
