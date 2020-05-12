@@ -38,22 +38,24 @@ document.addEventListener("DOMContentLoaded", function() {
       //element with a new string detailed by newString.
       function changeText(elementToChange, newString){
         document.getElementById(elementToChange).innerHTML = newString;
+      };
+
+      function addScribbleEvents(scribble, newString, defaultString){
+        scribble.onmouseenter = changeText("explore", newString);
+        scribble.onmouseout = changeText("explore", defaultString)
       }
 
-      //Detecting mouseovers of squiggles and adjusting exploration text to fit:
-      //Wrapper function that saves copy-pasting the same methods over and over again.
-      function dynamicExplorationText(squiggleID, name){
-        document.getElementById(squiggleID).addEventListener(
-          "mouseover", changeText("explore", "Explore Our Process: " + name)
-        );
-        document.getElementById(squiggleID).addEventListener(
-          "mouseout", changeText("explore", "Explore Our Process")
-        );
-      }
+      defString = "Explore Our Process";
+
+      var redS = document.querySelector("#sq-all-red");
+      var blueS = document.querySelector("#sq-all-blue");
+      var yellowS = document.querySelector("#sq-all-yellow");
+      var magentaS = document.querySelector("#sq-all-magenta");
+      var greenS = document.querySelector("#sq-all-greenS");
+      addScribbleEvents(redS, defString+": Nate", defString);
+      addScribbleEvents(blueS, defString+": Carrie", defString);
+      addScribbleEvents(yellowS, defString+": Victoria Grace", defString);
+      addScribbleEvents(magentaS, defString+": Anya", defString);
+      addScribbleEvents(greenS, defString+": Jane", defString);
       
-      dynamicExplorationText("sq-all-red", "Nate");
-      dynamicExplorationText("sq-all-blue", "Carrie");
-      dynamicExplorationText("sq-all-yellow", "Victoria Grace");
-      dynamicExplorationText("sq-all-magenta", "Anya");
-      dynamicExplorationText("sq-all-green", "Jane");
   });
