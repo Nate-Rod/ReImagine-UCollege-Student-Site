@@ -8,7 +8,7 @@ body{
 p{
   font-family: 'Karla', sans-serif;
   size: 0.4em;
-  line-height: 1.6em; 
+  line-height: 1.6em;
   hyphens: auto;
 }
 li,a{
@@ -101,6 +101,7 @@ img.icon:hover{
 .nav-link{
   color: lightgray;
 }
+
 :hover.nav-link{
   color:#294F49;
 }
@@ -125,7 +126,7 @@ h2{
 }
 
 /* Custom Scroll Bar */
-/* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/ 
+/* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
 https://gist.github.com/wookiehangover/811763 */
 ::-webkit-scrollbar {
   width: 6px;
@@ -160,6 +161,3 @@ https://gist.github.com/wookiehangover/811763 */
     display: none;
   }
 }
-
-
-  
