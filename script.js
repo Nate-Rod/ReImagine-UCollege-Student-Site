@@ -15,7 +15,6 @@ function loadSVG(id, file){
 //Accepts an ID for a text element and replaces the contents of the
 //element with a new string detailed by newString.
 function changeText(elementToChange, newString){
-  alert("Text changed");
   document.getElementById(elementToChange).innerHTML = newString;
 }
 
