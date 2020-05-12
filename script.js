@@ -50,10 +50,8 @@ const section1 = document.querySelector('.section1')
 // })
 
 //Place everything that requires all the DOM elements to be fully loaded here.
-window.onload=function(){
-  dynamicExplorationText("sq-all-red", "Nate");
-  dynamicExplorationText("sq-all-blue", "Carrie");
-  dynamicExplorationText("sq-all-yellow", "Victoria Grace");
-  dynamicExplorationText("sq-all-magenta", "Anya");
-  dynamicExplorationText("sq-all-green", "Jane");
-}
+dynamicExplorationText("sq-all-red", "Nate");
+dynamicExplorationText("sq-all-blue", "Carrie");
+dynamicExplorationText("sq-all-yellow", "Victoria Grace");
+dynamicExplorationText("sq-all-magenta", "Anya");
+dynamicExplorationText("sq-all-green", "Jane");
