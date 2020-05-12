@@ -5,6 +5,19 @@ body{
   background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
 }
 
+p{
+  font-family: 'Karla', sans-serif;
+  size: 0.4em;
+  line-height: 1.6em; 
+}
+li,a{
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3{
+  font-family: 'Lora', serif;
+}
+
 div{
   display: flex;
 }
@@ -105,4 +118,17 @@ h2{
 
 .flex-column{
   width: 100%;
+}
+
+.col-md-6,.col-md-2{
+  padding-left:0;
+}
+
+
+/* View Port Adjustments  */
+
+@media (max-width: 600px) {
+  .nav-container{
+    display: none;
+  }
 }
