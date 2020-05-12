@@ -50,8 +50,11 @@ const section1 = document.querySelector('.section1')
 // })
 
 //Place everything that requires all the DOM elements to be fully loaded here.
-dynamicExplorationText("sq-all-red", "Nate");
-dynamicExplorationText("sq-all-blue", "Carrie");
-dynamicExplorationText("sq-all-yellow", "Victoria Grace");
-dynamicExplorationText("sq-all-magenta", "Anya");
-dynamicExplorationText("sq-all-green", "Jane");
+document.addEventListener("DOMContentLoaded", function() {
+      // - Code to execute when all DOM content is loaded.
+      dynamicExplorationText("sq-all-red", "Nate");
+      dynamicExplorationText("sq-all-blue", "Carrie");
+      dynamicExplorationText("sq-all-yellow", "Victoria Grace");
+      dynamicExplorationText("sq-all-magenta", "Anya");
+      dynamicExplorationText("sq-all-green", "Jane");
+  });
