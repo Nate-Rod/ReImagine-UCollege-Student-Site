@@ -49,13 +49,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
       var redS = document.querySelector("#sq-all-red");
       var blueS = document.querySelector("#sq-all-blue");
+      blueS.onmouseenter = changeText("explore", defString+": Carrie");
+      blueS.onmouseout = changeText("explore", defString);
       var yellowS = document.querySelector("#sq-all-yellow");
       var magentaS = document.querySelector("#sq-all-magenta");
       var greenS = document.querySelector("#sq-all-greenS");
-      addScribbleEvents(redS, defString+": Nate", defString);
-      addScribbleEvents(blueS, defString+": Carrie", defString);
-      addScribbleEvents(yellowS, defString+": Victoria Grace", defString);
-      addScribbleEvents(magentaS, defString+": Anya", defString);
-      addScribbleEvents(greenS, defString+": Jane", defString);
+      //addScribbleEvents(redS, defString+": Nate", defString);
+      //addScribbleEvents(blueS, defString+": Carrie", defString);
+      //addScribbleEvents(yellowS, defString+": Victoria Grace", defString);
+      //addScribbleEvents(magentaS, defString+": Anya", defString);
+      //addScribbleEvents(greenS, defString+": Jane", defString);
 
   });
