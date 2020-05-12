@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       function addScribbleEvents(scribble, newString, defaultString){
         scribble.onmouseenter = changeText("explore", newString);
-        scribble.onmouseout = changeText("explore", defaultString)
+        scribble.onmouseout = changeText("explore", defaultString);
       }
 
       defString = "Explore Our Process";
@@ -57,5 +57,5 @@ document.addEventListener("DOMContentLoaded", function() {
       addScribbleEvents(yellowS, defString+": Victoria Grace", defString);
       addScribbleEvents(magentaS, defString+": Anya", defString);
       addScribbleEvents(greenS, defString+": Jane", defString);
-      
+
   });
