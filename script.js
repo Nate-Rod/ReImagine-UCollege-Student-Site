@@ -1,3 +1,12 @@
+//Place everything that requires all the DOM elements to be fully loaded here.
+window.onload=function(){
+  dynamicExplorationText("sq-all-red", "Nate");
+  dynamicExplorationText("sq-all-blue", "Carrie");
+  dynamicExplorationText("sq-all-yellow", "Victoria Grace");
+  dynamicExplorationText("sq-all-magenta", "Anya");
+  dynamicExplorationText("sq-all-green", "Jane");
+}
+
 //Allows for addition of SVGs to the DOM. Requires an ID'd element.
 function loadSVG(id, file){
   xhr = new XMLHttpRequest();
@@ -30,13 +39,6 @@ function dynamicExplorationText(squiggleID, name){
 }
 
 loadSVG("svgs-main","images/squiggles_for_everyone.svg");
-dynamicExplorationText("sq-all-red", "Nate");
-dynamicExplorationText("sq-all-blue", "Carrie");
-dynamicExplorationText("sq-all-yellow", "Victoria Grace");
-dynamicExplorationText("sq-all-magenta", "Anya");
-dynamicExplorationText("sq-all-green", "Jane");
-
-
 
 ScrollReveal().reveal('.container', { delay: 700, scale: 0.95});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
