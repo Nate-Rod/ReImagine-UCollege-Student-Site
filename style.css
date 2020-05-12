@@ -41,6 +41,19 @@ div{
   max-height: 80%;
 }
 
+#sq-all-red, #sq-all-blue, #sq-all-green, #sq-all-yellow, #sq-all-magenta{
+  opacity: 0.3;
+  -webkit-transition: opacity 0.05s;
+  transition: opacity 0.05s;
+}
+
+#sq-all-red:hover, #sq-all-blue:hover, #sq-all-green:hover, #sq-all-yellow:hover, #sq-all-magenta:hover{
+  opacity: 1;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+  stroke: #ed1c24; !important
+}
+
 svg|a:link, svg|a:visited {
   cursor: pointer;
 }
@@ -86,6 +99,7 @@ img.icon:hover{
   margin:0;
   padding: 0;
 }
+
 .nav-container{
   margin-top: 0px;
   position: fixed;

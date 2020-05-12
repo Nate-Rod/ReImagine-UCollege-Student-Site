@@ -1,4 +1,4 @@
-//Allows for addition of SVGs to the DOM.
+//Allows for addition of SVGs to the DOM. Requires an ID'd element.
 function loadSVG(id, file){
   xhr = new XMLHttpRequest();
   xhr.open("GET",file,true);
@@ -13,7 +13,6 @@ function loadSVG(id, file){
 }
 
 loadSVG("svgs-main","images/squiggles_for_everyone.svg");
-
 
 ScrollReveal().reveal('.container', { delay: 700, scale: 0.95});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
