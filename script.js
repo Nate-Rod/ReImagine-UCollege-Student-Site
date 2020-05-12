@@ -12,23 +12,6 @@ function loadSVG(id, file){
   xhr.send("");
 }
 
-//Accepts an ID for a text element and replaces the contents of the
-//element with a new string detailed by newString.
-function changeText(elementToChange, newString){
-  document.getElementById(elementToChange).innerHTML = newString;
-}
-
-//Detecting mouseovers of squiggles and adjusting exploration text to fit:
-//Wrapper function that saves copy-pasting the same methods over and over again.
-function dynamicExplorationText(squiggleID, name){
-  document.getElementById(squiggleID).addEventListener(
-    "mouseover", changeText("explore", "Explore Our Process: " + name)
-  );
-  document.getElementById(squiggleID).addEventListener(
-    "mouseout", changeText("explore", "Explore Our Process")
-  );
-}
-
 loadSVG("svgs-main","images/squiggles_for_everyone.svg");
 
 ScrollReveal().reveal('.container', { delay: 700, scale: 0.95});
@@ -51,6 +34,23 @@ const section1 = document.querySelector('.section1')
 //Place everything that requires all the DOM elements to be fully loaded here.
 document.addEventListener("DOMContentLoaded", function() {
       // - Code to execute when all DOM content is loaded.
+      //Accepts an ID for a text element and replaces the contents of the
+      //element with a new string detailed by newString.
+      function changeText(elementToChange, newString){
+        document.getElementById(elementToChange).innerHTML = newString;
+      }
+
+      //Detecting mouseovers of squiggles and adjusting exploration text to fit:
+      //Wrapper function that saves copy-pasting the same methods over and over again.
+      function dynamicExplorationText(squiggleID, name){
+        document.getElementById(squiggleID).addEventListener(
+          "mouseover", changeText("explore", "Explore Our Process: " + name)
+        );
+        document.getElementById(squiggleID).addEventListener(
+          "mouseout", changeText("explore", "Explore Our Process")
+        );
+      }
+      
       dynamicExplorationText("sq-all-red", "Nate");
       dynamicExplorationText("sq-all-blue", "Carrie");
       dynamicExplorationText("sq-all-yellow", "Victoria Grace");
