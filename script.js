@@ -39,13 +39,4 @@ document.addEventListener("DOMContentLoaded", function() {
       function changeText(elementToChange, newString){
         document.getElementById(elementToChange).innerHTML = newString;
       };
-
-      console.log(document.getElementById('svgs-main').childNodes)
-      var allGs = document.getElementsByTagName('g');
-      var firstG = allGs[0];
-      var firstChild = firstG.childNodes[0];
-      console.log(allGs)
-      console.log(firstG)
-      console.log(firstChild)
-      console.log(document.getElementById('svgs-main').children[0].children[1].children[0]);
 });
