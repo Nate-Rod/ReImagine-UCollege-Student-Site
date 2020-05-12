@@ -1,12 +1,3 @@
-//Place everything that requires all the DOM elements to be fully loaded here.
-window.onload=function(){
-  dynamicExplorationText("sq-all-red", "Nate");
-  dynamicExplorationText("sq-all-blue", "Carrie");
-  dynamicExplorationText("sq-all-yellow", "Victoria Grace");
-  dynamicExplorationText("sq-all-magenta", "Anya");
-  dynamicExplorationText("sq-all-green", "Jane");
-}
-
 //Allows for addition of SVGs to the DOM. Requires an ID'd element.
 function loadSVG(id, file){
   xhr = new XMLHttpRequest();
@@ -24,6 +15,7 @@ function loadSVG(id, file){
 //Accepts an ID for a text element and replaces the contents of the
 //element with a new string detailed by newString.
 function changeText(elementToChange, newString){
+  alert("Text changed");
   document.getElementById(elementToChange).innerHTML = newString;
 }
 
@@ -56,3 +48,12 @@ const section1 = document.querySelector('.section1')
 //   const [r, g, b] = [red*y, green*y, blue*y].map(Math.round)
 //   section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
+
+//Place everything that requires all the DOM elements to be fully loaded here.
+window.onload=function(){
+  dynamicExplorationText("sq-all-red", "Nate");
+  dynamicExplorationText("sq-all-blue", "Carrie");
+  dynamicExplorationText("sq-all-yellow", "Victoria Grace");
+  dynamicExplorationText("sq-all-magenta", "Anya");
+  dynamicExplorationText("sq-all-green", "Jane");
+}
