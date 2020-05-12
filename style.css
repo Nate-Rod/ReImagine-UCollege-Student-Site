@@ -5,6 +5,20 @@ body{
   background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
 }
 
+p{
+  font-family: 'Karla', sans-serif;
+  size: 0.4em;
+  line-height: 1.6em; 
+  hyphens: auto;
+}
+li,a{
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2,h3{
+  font-family: 'Lora', serif;
+}
+
 div{
   display: flex;
 }
@@ -106,3 +120,47 @@ h2{
 .flex-column{
   width: 100%;
 }
+
+.col-md-6,.col-md-2{
+  padding-left:0;
+}
+
+/* Custom Scroll Bar */
+/* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/ 
+https://gist.github.com/wookiehangover/811763 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+  height: 30px;
+  display: block;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece  {
+  background-color: #eee;
+  border-radius:6px;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #999;
+  border-radius:6px;
+  -webkit-border-radius: 6px;
+}
+
+
+/* View Port Adjustments  */
+
+@media (max-width: 600px) {
+  .nav-container{
+    display: none;
+  }
+}
+
+
+  
