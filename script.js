@@ -30,3 +30,15 @@ const section1 = document.querySelector('.section1')
 //   const [r, g, b] = [red*y, green*y, blue*y].map(Math.round)
 //   section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
 // })
+
+//Place everything that requires all the DOM elements to be fully loaded here.
+document.addEventListener("DOMContentLoaded", function() {
+      // - Code to execute when all DOM content is loaded.
+      //Accepts an ID for a text element and replaces the contents of the
+      //element with a new string detailed by newString.
+      function changeText(elementToChange, newString){
+        document.getElementById(elementToChange).innerHTML = newString;
+      };
+
+      console.log(document.getElementById('svgs-main').childNodes)
+});
