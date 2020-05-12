@@ -41,4 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
       };
 
       console.log(document.getElementById('svgs-main').childNodes)
+      var allGs = document.getElementsByTagName('g');
+      var firstG = allGs[0];
+      var firstChild = firstG.childNodes[0];
+      console.log(allGs)
+      console.log(firstG)
+      console.log(firstChild)
 });
