@@ -95,12 +95,6 @@ img.icon:hover{
 .nav-link.active {
   color: #294F49 !important;
 }
-/* 
-.nav-link > .active > a,
-.nav-link > .active > a:hover {
-  color:red;
-  background-color: red;
-} */
 
 h2{
   text-align: center;
