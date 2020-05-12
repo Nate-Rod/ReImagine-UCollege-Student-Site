@@ -3,6 +3,7 @@ body{
   flex-direction: column; */
   /*justify-content: space-around;*/
   background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
+  hyphens: auto;
 }
 
 p{
