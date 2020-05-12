@@ -48,3 +48,4 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log(firstG)
       console.log(firstChild)
       console.log(document.getElementById('svgs-main').children[0].children[1].children[0]);
+});
