@@ -243,30 +243,8 @@ https://gist.github.com/wookiehangover/811763 */
   height: 6px;
   margin-top: 0;
 }
-/*
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment  {
-  height: 30px;
-  display: block;
-  background-color: transparent;
-  margin-top: 0;
-}
 
-::-webkit-scrollbar-track-piece  {
-  /* background-color: #eee; */
-  /* border-radius:6px; */
-  /* -webkit-border-radius: 6px; */
-  /* margin-top: 0px;
-}
-
-
-::-webkit-scrollbar-thumb:vertical {
-  height: 50px;
-  background-color: black;
-  /* border-radius:6px; */
-  /* -webkit-border-radius: 6px; */
-/* } */
-
+/* Reference for Scroll bar: https://css-tricks.com/css-scrollbar-with-progress-meter/ */
 :root {
   --shadow: black;
   --scrollbarBG: #fafafa;
