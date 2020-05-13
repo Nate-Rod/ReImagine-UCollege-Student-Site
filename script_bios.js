@@ -7,6 +7,5 @@ $(function () {
     var $nav = $(".nav-container-bio");
     var $splash = $(".load-hidden")
     $nav.toggleClass('scrolled', $(this).scrollTop() > $splash.outerHeight() - 0.05*$splash.outerHeight());
-    console.log($(this).scrollTop() + " " + $splash.outerHeight());
   });
 });
