@@ -132,6 +132,20 @@ a:hover{
   background-position: right top;
   background-repeat: no-repeat;
 }
+
+#bio-splash-jane{
+  background-image: url("images/bios/jane-splash-dark.jpg");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#bio-splash-vg{
+  background-image: url("images/bios/vg-splash-dark.jpg");
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
 /*End Bio Splash Header CSS*/
 
 img.icon:hover{
@@ -169,12 +183,12 @@ img.icon:hover{
   background-color: #101010;
   width: 100vw;
   z-index: 99 !important;
-  transition: background-color 1s linear !important;
+  transition: background-color 0.75s !important;
   /*box-shadow: 0px 25px 5px 5px #0c0c0c;*/
 }
 
 .nav-container-bio.scrolled{
-  transition: background-color 1s linear !important;
+  transition: background-color 0.75s !important;
   background-color: #fafafa;
   /* box-shadow: 0px 5px 5px 5px #fafafa; */
 }

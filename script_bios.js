@@ -5,7 +5,7 @@ ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".nav-container-bio");
-    var $splash = $("#bio-splash-nate")
+    var $splash = $(".load-hidden")
     $nav.toggleClass('scrolled', $(this).scrollTop() > 1.5*$splash.height());
   });
 });
