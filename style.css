@@ -68,25 +68,62 @@ img.icon{
   border-radius: 50%;
 }
 
-img.nate{
-  border-color: #ed1c24;
-}
-
 img.carrie{
   border-color: #2e3192;
 }
-
+img.nate{
+  border-color: #ed1c24;
+}
+img.jane{
+  border-color: #009245;
+}
+img.anya{
+  border-color: #ff00ff;
+}
 img.victoria{
   border-color: #fcee21;
 }
 
-img.anya{
-  border-color: #ff00ff;
+/* Pull Quote CSS */
+#carrie, #carrie-active:hover{
+  border-left-color: #2e3192;
+}
+#carrie-active:hover{
+  color: #2e3192;
 }
 
-img.jane{
-  border-color: #009245;
+#nate, #nate-active:hover{
+  border-left-color: #ed1c24;
 }
+#nate-active:hover{
+  color: #ed1c24;
+}
+
+#jane, #jane-active:hover{
+  border-left-color: #009245;
+}
+#jane-active:hover{
+  color: #009245;
+}
+
+#anya, #anya-active:hover{
+  border-left-color: #ff00ff;
+}
+#anya-active:hover{
+  color: #ff00ff;
+}
+
+#victoriagrace, #victoriagrace-active:hover{
+  border-left-color: #fcee21;
+}
+#victoriagrace-active:hover{
+  color: #fcee21;
+}
+
+a:hover{
+  text-decoration: none;
+}
+/* End Pull Out Quote CSS */
 
 img.icon:hover{
   cursor: pointer;
@@ -140,6 +177,21 @@ h2{
 .col-md-6,.col-md-2{
   padding-left:0;
 }
+
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}
+
+.blockquote-footer{
+  font-family: 'Karla', sans-serif;
+}
+
 
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
