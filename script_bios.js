@@ -6,6 +6,6 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".nav-container-bio");
     var $splash = $(".load-hidden")
-    $nav.toggleClass('scrolled', $(this).scrollTop() > 1.5*$splash.height());
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $splash.outerHeight() - 0.05*$splash.outerHeight());
   });
 });
