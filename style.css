@@ -129,6 +129,7 @@ a:hover{
 #bio-splash-nate{
   background-image: url("images/bios/nate-splash-dark.jpg");
   background-size: cover;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 /*End Bio Splash Header CSS*/
@@ -156,7 +157,25 @@ img.icon:hover{
   background-color: #fafafa;
   width: 100vw;
   z-index: 99 !important;
-  box-shadow: 0px 25px 20px 5px #fafafa;
+  box-shadow: 0px 5px 5px 5px #fafafa;
+}
+
+.nav-container-bio{
+  margin-top: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+  width: 100vw;
+  z-index: 99 !important;
+  transition: background-color 1s linear !important;
+  /*box-shadow: 0px 25px 5px 5px #0c0c0c;*/
+}
+
+.nav-container-bio.scrolled{
+  transition: background-color 1s linear !important;
+  background-color: #fafafa;
 }
 
 .nav-link{
