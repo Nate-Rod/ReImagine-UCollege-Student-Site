@@ -125,6 +125,14 @@ a:hover{
 }
 /* End Pull Out Quote CSS */
 
+/*Bio Splash Header CSS*/
+#bio-splash-nate{
+  background-image: url("images/bios/nate-splash-dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*End Bio Splash Header CSS*/
+
 img.icon:hover{
   cursor: pointer;
 }
