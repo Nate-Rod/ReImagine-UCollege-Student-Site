@@ -3,6 +3,7 @@ body{
   flex-direction: column; */
   /*justify-content: space-around;*/
   background-color: #fafafa;   /*day mode is fafafa, night mode is #0c0c0c*/
+  hyphens: auto;
 }
 
 p{
@@ -51,7 +52,7 @@ div{
   opacity: 1;
   -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
-  stroke: #ed1c24; !important
+  stroke: #ed1c24 !important;
 }
 
 svg|a:link, svg|a:visited {
@@ -59,7 +60,7 @@ svg|a:link, svg|a:visited {
 }
 
 img.icon{
-  border: 3.5px solid transparent;
+  border: 4px solid transparent;
   max-width: 50%;
   height: auto;
   max-height: 50%;

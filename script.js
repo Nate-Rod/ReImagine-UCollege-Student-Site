@@ -14,10 +14,10 @@ function loadSVG(id, file){
 
 loadSVG("svgs-main","images/squiggles_for_everyone.svg");
 
-ScrollReveal().reveal('.container', { delay: 700, scale: 0.95});
+// SrollReveal Animations
+ScrollReveal().reveal('.container', { delay: 400, scale: 0.95});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
-ScrollReveal().reveal('.svgs-main', { delay: 0, scale: 1});
-ScrollReveal().reveal('.images/squiggles_for_everyone.svg', { delay: 0, scale: 1});
+ScrollReveal().reveal('#svgs-main', { delay: 0, scale: 1}); 
 
 
 const [red, green, blue] = [69, 111, 225]
