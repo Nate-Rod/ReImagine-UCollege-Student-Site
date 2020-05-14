@@ -267,11 +267,7 @@ h2{
 
 .footer{
   /*opacity: 100%;*/
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #d0d0d0; /*debug-only: #d0d0d0*/
+  /*debug-only: #d0d0d0*/
 }
 
 #progress-tracker{
