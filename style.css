@@ -1,3 +1,7 @@
+/* Color Reference */
+/* #294F49 - green used  */
+
+
 body{
   /* display: flex;
   flex-direction: column; */
@@ -12,13 +16,24 @@ p{
   line-height: 1.6em;
   hyphens: auto;
 }
+
 li,a{
   font-family: 'Karla', sans-serif;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
   font-family: 'Lora', serif;
   margin-bottom: 20px;
+}
+
+/* Link Hover State */
+a:hover{
+  text-decoration: none;
+}
+
+hr{
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 div{
@@ -122,10 +137,6 @@ img.carrie:hover, img.nate:hover, img.jane:hover, img.anya:hover, img.victoria:h
 }
 #victoriagrace-active:hover{
   color: #fcee21;
-}
-
-a:hover{
-  text-decoration: none;
 }
 /* End Pull Out Quote CSS */
 
@@ -237,6 +248,22 @@ h2{
 .blockquote-footer{
   font-family: 'Karla', sans-serif;
 }
+
+
+.footer{
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  height: 20vh;
+  text-align: center;
+}
+
+.footer-link{
+  color: black;
+}
+.footer-link:hover{
+  color: #294F49;
+}
+
 
 
 /* Custom Scroll Bar */
