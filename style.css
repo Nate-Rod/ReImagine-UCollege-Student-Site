@@ -279,6 +279,13 @@ h2{
   color: #294F49;
 }
 
+#footer-ppl{
+  color: grey;
+}
+#footer-ppl:hover{
+  color: #294F49;
+}
+
 
 
 /* Custom Scroll Bar */
