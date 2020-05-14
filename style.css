@@ -267,7 +267,11 @@ h2{
 
 .footer{
   /*opacity: 100%;*/
-  /*debug-only: #d0d0d0*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: lightgray;
+
 }
 
 #progress-tracker{
