@@ -18,6 +18,9 @@ loadSVG("svgs-main","images/squiggles_for_everyone.svg");
 ScrollReveal().reveal('.container', { delay: 400, scale: 0.95});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
 ScrollReveal().reveal('#svgs-main', { delay: 0, scale: 1}); 
+ScrollReveal().reveal('#main-p', { delay: 300, scale: 1});
+ScrollReveal().reveal('#main-one', { delay: 1000, scale: .95});
+ScrollReveal().reveal('#main-two', { delay: 600, scale: .95}); 
 
 
 const [red, green, blue] = [69, 111, 225]
