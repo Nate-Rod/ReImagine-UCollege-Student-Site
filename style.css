@@ -184,7 +184,6 @@ img.icon:hover{
 
 .section1 {
   height: 100vh;
-  /* background-color: rgb(69, 111, 225) */
 }
 
 .navbar{
@@ -274,9 +273,6 @@ h2{
 
 }
 
-#progress-tracker{
-
-}
 
 #squiggle-footer{
   opacity: 0.3;
