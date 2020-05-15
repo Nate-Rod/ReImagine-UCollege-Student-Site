@@ -14,25 +14,25 @@ function loadSVG(id, file){
 
 loadSVG("svgs-main","images/squiggles_for_everyone.svg");
 
-// SrollReveal Animations
-ScrollReveal().reveal('.container', { delay: 400, scale: 0.95});
+// ScrollReveal Animations
+ScrollReveal().reveal('.container', { delay: 400, scale: 0.97});
 ScrollReveal().reveal('.load-hidden', { delay: 0, scale: 1});
 ScrollReveal().reveal('#svgs-main', { delay: 0, scale: 1});
-ScrollReveal().reveal('#main-p', { delay: 300, scale: 1});
-ScrollReveal().reveal('#main-one', { delay: 1000, scale: .95});
-ScrollReveal().reveal('#main-two', { delay: 600, scale: .95});
+//Main Page Scroll Reveal
+ScrollReveal().reveal('#main-p', { delay: 300, opacity: 0});
+ScrollReveal().reveal('#main-one', { delay: 1000, opacity: 0, scale: 0.98});
+ScrollReveal().reveal('#main-two', { delay: 600, opacity: 0, scale: 0.98});
+//Image Gallery Scroll Reveal
+ScrollReveal().reveal('#main-img-one', { delay: 600, opacity: 0});
+ScrollReveal().reveal('#main-img-two', { delay: 600, opacity: 0});
+ScrollReveal().reveal('#main-quote-three', { delay: 600, opacity: 0});
+ScrollReveal().reveal('#main-img-four', { delay: 600, opacity: 0});
+
 
 
 const [red, green, blue] = [69, 111, 225]
 const section1 = document.querySelector('.section1')
 
-// //background change animation  https://www.samsung.com/sec/smartphones/galaxy-note9/
-// window.addEventListener('scroll', () => {
-//   let y = 1 + (window.scrollY || window.pageYOffset) / 150
-//   y = y < 1 ? 1 : y // ensure y is always >= 1 (due to Safari's elastic scroll)
-//   const [r, g, b] = [red*y, green*y, blue*y].map(Math.round)
-//   section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
-// })
 
 //Place everything that requires all the DOM elements to be fully loaded here.
 document.addEventListener("DOMContentLoaded", function() {
