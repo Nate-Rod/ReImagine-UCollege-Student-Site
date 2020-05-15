@@ -77,8 +77,8 @@ h3{
     width: 450px;
   } 
   #main-one{
-    width: 250px;
-    margin-top: -400px;
+    width: 260px;
+    margin-top: -420px;
   }  
   #top-main{
     margin-top: 80px;
@@ -95,8 +95,8 @@ h3{
     width: 350px;
   } 
   #main-one{
-    width: 250px;
-    margin-top: -370px;
+    width: 230px;
+    margin-top: -350px;
   }  
   #top-main{
     margin-top: 70px;
@@ -118,8 +118,8 @@ h3{
   width: 300px;
 } 
 #main-one{
-  width: 170px;
-  margin-top: -280px;
+  width:190px;
+  margin-top: -300px;
 }  
 }
 /* main page responsive end */
