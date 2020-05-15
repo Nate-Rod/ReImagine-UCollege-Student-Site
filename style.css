@@ -41,6 +41,49 @@ h3{
   font-size: 1.8em;
 }
 
+/* large size */
+#main-two{
+  margin-right: 40px;
+  margin-top: 40vh;
+  width: 500px;
+  float:left;
+}
+#main-one{
+  margin-right: -20px;
+  margin-top: -480px;
+  width: 300px;
+  float:right;
+}
+
+#top-main{
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+#main-quote-three{
+  margin-top: 100vh; margin-left: 10vw; padding-right: 10vw;font-size: 1.8em;
+}
+
+/* main page responsive */
+
+@media (max-width: 1600px) {
+  h1{
+    font-size: 5.0em;
+  }
+  #sub-main-text{
+    font-size: 1.6em;
+  }
+  #main-two{
+    width: 450px;
+  } 
+  #main-one{
+    width: 250px;
+    margin-top: -400px;
+  }  
+  #top-main{
+    margin-top: 80px;
+  }  
+}
 @media (max-width: 1440px) {
   h1{
     font-size: 4.9em;
@@ -48,13 +91,39 @@ h3{
   #sub-main-text{
     font-size: 1.4em;
   }
+  #main-two{
+    width: 350px;
+  } 
+  #main-one{
+    width: 250px;
+    margin-top: -370px;
+  }  
+  #top-main{
+    margin-top: 70px;
+  }  
 }
- 
-@media (max-width: 1180px) {
+@media (max-width: 1366px) {
+  h1{
+    font-size: 4.7em;
+  } 
+  #main-quote-three{
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 1280px) {
  h1{
    font-size: 4.5em;
  }
+ #main-two{
+  width: 300px;
+} 
+#main-one{
+  width: 170px;
+  margin-top: -280px;
+}  
 }
+/* main page responsive end */
+
 
 /* Link Hover State */
 a:hover{
