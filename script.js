@@ -22,6 +22,12 @@ ScrollReveal().reveal('#main-p', { delay: 300, scale: 1});
 ScrollReveal().reveal('#main-one', { delay: 1000, scale: .95});
 ScrollReveal().reveal('#main-two', { delay: 600, scale: .95});
 
+ScrollReveal().reveal('#main-img-one', { delay: 600, scale: .95});
+ScrollReveal().reveal('#main-img-two', { delay: 1000, scale: .95});
+ScrollReveal().reveal('#main-quote-three', { delay: 500, scale: .95});
+ScrollReveal().reveal('#main-img-four', { delay: 1800, scale: .95});
+
+
 
 const [red, green, blue] = [69, 111, 225]
 const section1 = document.querySelector('.section1')
