@@ -124,6 +124,12 @@ h3{
 }
 /* main page responsive end */
 
+/* table css */
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{overflow:hidden;padding:10px 5px;word-break:normal; width: 18vw;}
+.tg th{font-weight:normal; overflow:hidden;padding:10px 5px;word-break:normal; width: 30vw;}
+.tg .tg-0lax{text-align:left;vertical-align:top; font-family: 'Karla', sans-serif; font-size: 1em;}
+#table-header-text{width: 10vw;font-weight: bold;}
 
 /* Link Hover State */
 a:hover{
