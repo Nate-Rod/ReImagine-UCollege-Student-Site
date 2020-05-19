@@ -27,7 +27,7 @@ h1,h2,h3,h4{
 }
 
 h1{
-  font-size: 5.1em; 
+  font-size: 5.1em;
 }
 
 h2{
@@ -75,14 +75,14 @@ h3{
   }
   #main-two{
     width: 450px;
-  } 
+  }
   #main-one{
     width: 260px;
     margin-top: -420px;
-  }  
+  }
   #top-main{
     margin-top: 80px;
-  }  
+  }
 }
 @media (max-width: 1440px) {
   h1{
@@ -93,19 +93,19 @@ h3{
   }
   #main-two{
     width: 350px;
-  } 
+  }
   #main-one{
     width: 230px;
     margin-top: -350px;
-  }  
+  }
   #top-main{
     margin-top: 70px;
-  }  
+  }
 }
 @media (max-width: 1366px) {
   h1{
     font-size: 4.7em;
-  } 
+  }
   #main-quote-three{
     font-size: 1.5em;
   }
@@ -116,11 +116,11 @@ h3{
  }
  #main-two{
   width: 300px;
-} 
+}
 #main-one{
   width:190px;
   margin-top: -300px;
-}  
+}
 }
 /* main page responsive end */
 
@@ -158,6 +158,10 @@ div{
   padding: 30px;
 }
 
+div.padded-bottom{
+  padding-bottom: 5vh;
+}
+
 #svgs-main{
   max-width: 80%;
   max-height: 80%;
@@ -188,6 +192,18 @@ img.icon{
   border-radius: 50%;
 }
 
+img.contain{
+  object-fit: contain;
+}
+
+img.cover{
+  object-fit: cover;
+}
+
+img.fill{
+  object-fit: fill;
+}
+
 img.carrie{
   border-color: #2e3192;
 }
@@ -206,6 +222,10 @@ img.victoria{
 
 img.carrie:hover, img.nate:hover, img.jane:hover, img.anya:hover, img.victoria:hover{
   transform: scale(1.05);
+}
+
+img.no-interaction{
+  pointer-events: none;
 }
 
 /* Pull Quote CSS */
@@ -399,8 +419,17 @@ img.icon:hover{
   margin-top: 15vh;
 }
 
+/*Carousel CSS for Nate's Bio*/
+.carousel-dark:hover{
+  background: #0c0c0c;
+  opacity: 0.5;
+  transition: 0.5s;
+}
 .figure-caption{margin-top: 10px;}
 
+.carousel-dark{
+  transition: 1s;
+}
 
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
