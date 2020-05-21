@@ -61,7 +61,7 @@ h3{
 }
 
 #main-quote-three{
-  margin-top: 90vh; margin-left: 10vw; padding-right: 10vw;font-size: 1.8em; font-family: 'Karla', sans-serif; padding-top: 10vh; 
+  margin-top: 90vh; margin-left: 10vw; padding-right: 10vw;font-size: 1.8em; font-family: 'Karla', sans-serif; padding-top: 10vh;
 }
 
 /* main page responsive */
@@ -156,6 +156,10 @@ div{
 .container{
   margin: auto;
   padding: 30px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 div.padded-bottom{
@@ -267,6 +271,13 @@ img.no-interaction{
 /* End Pull Out Quote CSS */
 
 /*Bio Splash Header CSS*/
+.bio-subtext{
+  color: lightgray;
+  margin-top: 7px;
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+}
+
 #bio-splash-nate{
   background-image: url("images/bios/nate-splash-dark.jpg");
   background-size: cover;
@@ -411,6 +422,7 @@ img.icon:hover{
 #footer-ppl{
   color: grey;
 }
+
 #footer-ppl:hover{
   color: #294F49;
 }
