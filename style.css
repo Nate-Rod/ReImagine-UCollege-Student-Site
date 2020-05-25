@@ -310,10 +310,9 @@ img.no-interaction{
 }
 
 #bio-splash-carrie{
-  background-image: url("images/bios/carrie-splash-3-dark.jpg");
+  background-image: url("images/bios/carrie-splash-dark.jpg");
   background-size: cover;
-  background-position: center center;
-  background-color: #101010;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
