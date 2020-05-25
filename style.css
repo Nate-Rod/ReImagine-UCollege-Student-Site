@@ -454,6 +454,18 @@ img.icon:hover{
   transition: 1s;
 }
 
+ .img-wrapper{
+   width: 100%;
+   background-image: url("images/main-splash-3.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+ }
+
+ li{
+   padding: .5em;
+ }
+
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
 https://gist.github.com/wookiehangover/811763 */
