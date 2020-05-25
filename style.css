@@ -462,6 +462,33 @@ img.icon:hover{
    background-position: 50% 50%;
  }
 
+ .phase1-sticky{
+  background-image: url("images/process-images/framework-2.jpg");
+ }
+.phase1-facebook{
+  background-image: url("images/process-images/Ad\ mockup\ 8.png");
+}
+
+.phase2-audience{
+  background-image: url("images/process-images/phase1-stickies.png");
+}
+
+.phase2-switch{
+  background-image: url("images/process-images/advance.png");
+}
+
+.phase3-ideation{
+  background-image: url("images/process-images/interview.jpg");
+}
+
+.phase4-storyboard{
+  background-image: url("images/process-images/storyboard\ \(2\).png");
+}
+
+.phase4-touchpoint{
+  background-image: url("images/biopages/nate/sample_website_touchpoint_2.png");
+}
+
  li{
    padding: .5em;
  }
