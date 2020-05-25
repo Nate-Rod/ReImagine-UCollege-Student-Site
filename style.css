@@ -422,6 +422,7 @@ img.icon:hover{
 }
 
 .footer-link{
+  margin-bottom: 0;
   color: black;
 }
 
@@ -438,7 +439,7 @@ img.icon:hover{
 }
 
 #end-links{
-  margin-top: 15vh;
+  margin-top: 5vh;
 }
 
 /*Carousel CSS for Nate's Bio*/
@@ -521,7 +522,7 @@ https://gist.github.com/wookiehangover/811763 */
 
 /* View Port Adjustments  */
 
-@media (max-width: 700px) {
+@media (max-width: 795px) {
   .nav-container{
     display: none;
     /* eventually change this so that nav bar adjusts to smaller viewport */
