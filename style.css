@@ -139,7 +139,7 @@ h3{
 .tg td{overflow:hidden;padding:5px 5px;word-break:normal; width: 18vw;}
 .tg th{font-weight:normal; overflow:hidden;padding:5px 5px;word-break:normal; width: 30vw;}
 .tg .tg-0lax{text-align:left;vertical-align:top; font-family: 'Karla', sans-serif;}
-#table-header-text{width: 5vw;font-weight: bold; padding-right: 20px;}
+#table-header-text{width: 10vw;font-weight: bold; padding-right: 20px;}
 
 /* Link Hover State */
 a:hover{
@@ -499,6 +499,7 @@ img.icon:hover{
    font-size: 1.1em;
  }
 
+ 
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
 https://gist.github.com/wookiehangover/811763 */
