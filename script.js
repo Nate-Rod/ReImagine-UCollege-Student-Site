@@ -30,9 +30,20 @@ ScrollReveal().reveal('#main-img-four', { delay: 600, opacity: 0});
 
 
 
-const [red, green, blue] = [69, 111, 225]
-const section1 = document.querySelector('.section1')
+const [red, green, blue] = [69, 111, 225];
+const section1 = document.querySelector('.section1');
 
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav-container");
+    var $bg = $(".main-container");
+    var $splash = $(".load-hidden");
+    var scrollPos = $splash.outerHeight() - 0.05*$splash.outerHeight();
+    var targetPos = $(this).scrollTop();
+    $nav.toggleClass('nav-container-scrolled', targetPos > scrollPos);
+    $bg.toggleClass('main-container-scrolled', targetPos > scrollPos);
+  });
+});
 
 //Place everything that requires all the DOM elements to be fully loaded here.
 document.addEventListener("DOMContentLoaded", function() {
