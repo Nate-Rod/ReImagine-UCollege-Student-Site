@@ -45,12 +45,17 @@ $(function () {
   });
 });
 
-//Place everything that requires all the DOM elements to be fully loaded here.
-document.addEventListener("DOMContentLoaded", function() {
-      // - Code to execute when all DOM content is loaded.
-      //Accepts an ID for a text element and replaces the contents of the
-      //element with a new string detailed by newString.
-      function changeText(elementToChange, newString){
-        document.getElementById(elementToChange).innerHTML = newString;
-      };
-});
+//This segment of code toggles the visibility of the
+//"image gallery" layer of the webpage.
+function focusImage(){
+
+}
+
+//First, an eventlistener is added to every <img> element:
+var images = document.getElementsByTagName('img');
+var srcList = [];
+for(var i = 0; i < images.length; i++) {
+    srcList.push(images[i].src);
+    images[i].addEventListener("click", focusImage);
+}
+console.log(srcList);
