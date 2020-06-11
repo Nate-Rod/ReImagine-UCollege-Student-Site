@@ -465,6 +465,7 @@ img.icon:hover{
  .phase1-sticky{
   background-image: url("images/process-images/framework-2.jpg");
  }
+
 .phase1-facebook{
   background-image: url("images/process-images/Ad\ mockup\ 8.png");
 }
@@ -499,7 +500,25 @@ img.icon:hover{
    font-size: 1.1em;
  }
 
- 
+/* Image Focus Element CSS */
+#focused-image-wrapper{
+ position: fixed;
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+ background-color: hsla(360, 0%, 0%, 0.8);
+ z-index: 300;
+ visibility: hidden;
+ transition: visibility 0.1s;
+}
+
+#img-focus{
+  max-width: 80%;
+}
+
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
 https://gist.github.com/wookiehangover/811763 */
