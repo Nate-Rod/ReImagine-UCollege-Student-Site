@@ -30,16 +30,39 @@ ScrollReveal().reveal('#main-img-four', { delay: 600, opacity: 0});
 
 
 
-const [red, green, blue] = [69, 111, 225]
-const section1 = document.querySelector('.section1')
+const [red, green, blue] = [69, 111, 225];
+const section1 = document.querySelector('.section1');
 
-
-//Place everything that requires all the DOM elements to be fully loaded here.
-document.addEventListener("DOMContentLoaded", function() {
-      // - Code to execute when all DOM content is loaded.
-      //Accepts an ID for a text element and replaces the contents of the
-      //element with a new string detailed by newString.
-      function changeText(elementToChange, newString){
-        document.getElementById(elementToChange).innerHTML = newString;
-      };
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav-container");
+    var $bg = $(".main-container");
+    var $splash = $(".load-hidden");
+    var scrollPos = $splash.outerHeight() - 0.05*$splash.outerHeight();
+    var targetPos = $(this).scrollTop();
+    $nav.toggleClass('nav-container-scrolled', targetPos > scrollPos);
+    $bg.toggleClass('main-container-scrolled', targetPos > scrollPos);
+  });
 });
+
+//This segment of code toggles the visibility of the
+//"image gallery" layer of the webpage.
+function focusImage(event){
+  console.log("Clicked " + event.data.imgsrc);
+  document.getElementById('focused-image-wrapper').style.visibility = "visible";
+  document.getElementById('focused-image-wrapper').addEventListener("click", unFocusImage);
+  document.getElementById('img-focus').src = event.data.imgsrc;
+};
+
+function unFocusImage(event){
+  document.getElementById('focused-image-wrapper').style.visibility = "hidden";
+}
+
+//First, an eventlistener is added to every <img> element:
+var images = document.getElementsByTagName('img');
+var srcList = []; //debug only
+for(var i = 0; i < images.length; i++) {
+    srcList.push(images[i].src); //debug only
+    $(images[i]).on("click", {imgsrc: srcList[i]}, focusImage);
+};
+console.log(srcList); //debug only
