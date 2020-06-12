@@ -364,7 +364,7 @@ img.icon:hover{
 
 .nav-container-bio.scrolled{
   transition: background-color 0.33s !important;
-  background-color: #fafafa;
+  background-color: #8B3027;
   /* box-shadow: 0px 5px 5px 5px #fafafa; */
 }
 
@@ -374,7 +374,6 @@ img.icon:hover{
 
 :hover.nav-link{
   color:white;
-
 }
 
 .nav-link.active {
@@ -538,15 +537,8 @@ img.icon:hover{
   overflow: hidden;
 }
 
-/* div > img {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  transform: translate(-50%, -50%);
-} */
+
+
 
 
 
