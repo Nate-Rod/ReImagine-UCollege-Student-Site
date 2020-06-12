@@ -63,6 +63,8 @@ var images = document.getElementsByTagName('img');
 var srcList = []; //debug only
 for(var i = 0; i < images.length; i++) {
     srcList.push(images[i].src); //debug only
-    $(images[i]).on("click", {imgsrc: srcList[i]}, focusImage);
+    if(!$(images[i]).hasClass("no-zoom")){  //provides for exceptions to image zoom feature
+      $(images[i]).on("click", {imgsrc: srcList[i]}, focusImage);
+    };
 };
 console.log(srcList); //debug only
