@@ -344,7 +344,7 @@ img.icon:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #8B3027;
   width: 100vw;
   z-index: 99 !important;
 }
@@ -369,16 +369,18 @@ img.icon:hover{
 }
 
 .nav-link{
-  color: lightgray;
+  color: #A1A2A3;
 }
 
 :hover.nav-link{
-  color:#294F49;
+  color:white;
+
 }
 
 .nav-link.active {
-  color: #294F49 !important;
+  color: white !important;
 }
+
 
 .flex-column{
   width: 100%;
@@ -524,6 +526,27 @@ img.icon:hover{
 #img-focus{
   max-width: 80%;
 }
+
+.phases{
+  object-fit: cover;
+}
+
+.img-wrapper{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* div > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+} */
 
 
 
