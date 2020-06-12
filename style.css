@@ -456,16 +456,22 @@ img.icon:hover{
 
  .img-wrapper{
    width: 100%;
-   background-image: url("images/main-splash-3.jpg");
+   /* background-image: url("images/main-splash-3.jpg"); */
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 50% 50%;
  }
 
+ @media (max-width: 1000px) {
+  .phase-img{
+    height: 20px;
+  }
+}
+/* 
  .phase1-sticky{
   background-image: url("images/process-images/framework-2.jpg");
- }
-
+ } */
+/* 
 .phase1-facebook{
   background-image: url("images/process-images/Ad\ mockup\ 8.png");
 }
@@ -490,7 +496,7 @@ img.icon:hover{
 }
 .phase4-finalconcept{
   background-image: url("images/process-images/IMG_3180\ 1\ \(1\).png");
-}
+} */
 
  li{
    padding: .5em;
@@ -518,6 +524,8 @@ img.icon:hover{
 #img-focus{
   max-width: 80%;
 }
+
+
 
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/
