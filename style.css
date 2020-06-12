@@ -468,11 +468,11 @@ img.icon:hover{
     height: 20px;
   }
 }
-/* 
+/*
  .phase1-sticky{
   background-image: url("images/process-images/framework-2.jpg");
  } */
-/* 
+/*
 .phase1-facebook{
   background-image: url("images/process-images/Ad\ mockup\ 8.png");
 }
@@ -525,6 +525,12 @@ img.icon:hover{
 #img-focus{
   max-width: 80%;
 }
+
+/* Exception class--use this if you do not want
+your image to be zoomed-in on click*/
+.no-zoom{}
+  
+/* End Image Focus Element CSS*/
 
 .phases{
   object-fit: cover;
