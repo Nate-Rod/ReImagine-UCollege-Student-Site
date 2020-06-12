@@ -344,17 +344,9 @@ img.icon:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.33s !important;
-  background-color: #a51417; /*WashU Red*/
+  background-color: #fafafa;
   width: 100vw;
   z-index: 99 !important;
-}
-
-/*Transition effect to be used when the user scrolls
-past a certain point on the main splash page*/
-.nav-container-scrolled{
-  transition: background-color 0.33s !important;
-  background-color: #fafafa;
 }
 
 .nav-container-bio{
@@ -508,8 +500,6 @@ past a certain point on the main splash page*/
    font-size: 1.1em;
  }
 
-
-
 /* Image Focus Element CSS */
 #focused-image-wrapper{
  position: fixed;
@@ -528,7 +518,6 @@ past a certain point on the main splash page*/
 #img-focus{
   max-width: 80%;
 }
-
 
 /* Custom Scroll Bar */
 /* http://beautifulpixels.com/goodies/create-custom-webkit-scrollbar/

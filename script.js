@@ -47,10 +47,6 @@ $(function () {
 
 //This segment of code toggles the visibility of the
 //"image gallery" layer of the webpage.
-
-function focusImage(){
-
-=======
 function focusImage(event){
   console.log("Clicked " + event.data.imgsrc);
   document.getElementById('focused-image-wrapper').style.visibility = "visible";
@@ -60,23 +56,13 @@ function focusImage(event){
 
 function unFocusImage(event){
   document.getElementById('focused-image-wrapper').style.visibility = "hidden";
-
 }
 
 //First, an eventlistener is added to every <img> element:
 var images = document.getElementsByTagName('img');
-
-var srcList = [];
-for(var i = 0; i < images.length; i++) {
-    srcList.push(images[i].src);
-    images[i].addEventListener("click", focusImage);
-}
-console.log(srcList);
-=======
 var srcList = []; //debug only
 for(var i = 0; i < images.length; i++) {
     srcList.push(images[i].src); //debug only
     $(images[i]).on("click", {imgsrc: srcList[i]}, focusImage);
 };
 console.log(srcList); //debug only
-
