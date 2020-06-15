@@ -1,5 +1,4 @@
 /* Color Reference */
-/* #294F49 - green used  */
 /* html { font-size: calc(1em + .3vw); } */
 
 body{
@@ -33,13 +32,21 @@ h1{
 
 h2{
   text-align: center;
-  color: #324E49;
-  font-size: 2.3em;
+  color: #0c0c0c;
+  font-size: 2.7em;
+  font-weight: 500;
+  margin-bottom: 7vh;
 
 }
 
 h3{
-  font-size: 1.8em;
+  font-size: 2em;
+  font-weight: 400;
+  /* font-family: 'Karla', sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; */
 }
 
 /* large size */
@@ -61,8 +68,10 @@ h3{
   margin-right: 20px;
 }
 
+
 #main-quote-three{
-  margin-top: 90vh; margin-left: 10vw; padding-right: 10vw;font-size: 1.8em; font-family: 'Karla', sans-serif; padding-top: 10vh;
+  margin-top: 90vh; margin-left: 10vw; padding-right: 10vw;font-size: 1.8em;
+  font-family: 'Lora', serif; padding-top: 10vh;
 }
 
 #sub-main-text{
@@ -403,6 +412,10 @@ img.icon:hover{
   font-family: 'Karla', sans-serif;
 }
 
+#bq{
+  font-family: 'Lora', serif; 
+}
+
 
 .footer{
   /*opacity: 100%;*/
@@ -428,7 +441,7 @@ img.icon:hover{
 }
 
 .footer-link:hover{
-  color: #294F49;
+  color: #0c0c0c;
 }
 
 #footer-ppl{
@@ -436,7 +449,7 @@ img.icon:hover{
 }
 
 #footer-ppl:hover{
-  color: #294F49;
+  color: #0c0c0c;
 }
 
 #end-links{
@@ -505,8 +518,9 @@ img.icon:hover{
 
  .blockquote{
    font-size: 1.1em;
- }
 
+ }
+ 
 /* Image Focus Element CSS */
 #focused-image-wrapper{
  position: fixed;
@@ -525,6 +539,7 @@ img.icon:hover{
 #img-focus{
   max-width: 80%;
 }
+
 
 /* Exception class--use this if you do not want
 your image to be zoomed-in on click*/
