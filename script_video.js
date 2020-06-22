@@ -21,6 +21,15 @@ function buildVideo(vidID, vidSRC){
 }
 
 //create a video player object to use in DOM
-$('#v-box').append(
-  buildVideo('vid1', 'videos/test.mp4')
+$('#v-box-phase-1').append(
+  buildVideo('vid1', 'videos/phase1_MOV.mp4')
+);
+$('#v-box-phase-2').append(
+  buildVideo('vid2', 'videos/phase2_MOV_1.mp4')
+);
+$('#v-box-phase-3').append(
+  buildVideo('vid3', 'videos/phase3_MOV_1.mp4')
+);
+$('#v-box-phase-4').append(
+  buildVideo('vid4', 'videos/phase4_MOV_1.mp4')
 );
