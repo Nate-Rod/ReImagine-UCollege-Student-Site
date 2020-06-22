@@ -196,7 +196,7 @@ div.padded-bottom{
   transition: opacity 0.05s;
 }
 
-#sq-all-red:hover, #sq-all-blue:hover, #sq-all-green:hover, #sq-all-yellow:hover, #sq-all-magenta:hover{
+#sq-all-red:hover, #sq-all-blue:hover, #sq-all-green:hover, #sq-all-magenta:hover{
   opacity: 1;
   -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
@@ -413,7 +413,7 @@ img.icon:hover{
 }
 
 #bq{
-  font-family: 'Lora', serif; 
+  font-family: 'Lora', serif;
 }
 
 
@@ -520,7 +520,7 @@ img.icon:hover{
    font-size: 1.1em;
 
  }
- 
+
 /* Image Focus Element CSS */
 #focused-image-wrapper{
  position: fixed;
